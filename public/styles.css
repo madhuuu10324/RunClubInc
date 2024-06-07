@@ -1,0 +1,161 @@
+.box-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .box {
+    background: linear-gradient(to bottom right, #3d3c3c, #252525);
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 80%;
+    width: 500px;
+  }
+
+  .title {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #e9dede;
+  }
+
+  .description {
+    font-size: 16px;
+    color: #e7d7d7;
+  }
+  .bento-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .bento-box {
+    width: 300px; /* Adjust width as needed */
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .bento-box img {
+    max-width: 60%;
+    height: auto;
+  }
+  
+  .bento-box h2 {
+    margin-bottom: 10px;
+    color: #e9dede;
+  }
+  
+  .bento-box p {
+    margin-bottom: 20px;
+    color: #f7f2f2;
+  }
+  .heading {
+    text-align: center;
+    position: relative;
+  }
+  .heading h2 {
+    font-family:'Alien AI Italic';
+    color: azure;
+    display: inline-block; /* Change background color to match your design */
+    padding: 0 20px;
+    position: relative;
+    z-index: 1;
+  }
+  .heading::before,
+.heading::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 30%; /* Adjust line width as needed */
+  height: 10px; /* Adjust line thickness as needed */
+  background-color: #f7f2f2; /* Change line color as needed */
+  z-index: 0;
+}
+  .heading::before {
+    left: 0;
+  }
+  .heading::after {
+    right: 0;
+  }
+  .carousel {
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center; 
+}
+
+.carousel-container {
+  display: flex;
+  transition: transform 0.5s ease;
+  width: 300px;
+  height: 300px;
+}
+
+.review {
+  flex: 0 0 auto;
+  width: 100%;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  display: none; /* Initially hide all reviews */
+}
+
+.review.active {
+  display: block; /* Show the active review */
+}
+
+.review h3 {
+  font-style: bold;
+  margin-bottom: 10px;
+  color: #333;
+}
+.review p{
+  font-style: italic;
+}
+
+.carousel-trackers {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.carousel-tracker {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 0 5px;
+  background-color: #bbb;
+  border-radius: 50%;
+}
+
+.carousel-tracker.active {
+  background-color: #333;
+}
+.footer {
+  background: linear-gradient(to bottom, #000000, #333333); /* Black gradient background */
+  color: #ffffff; /* Text color */
+  padding: 50px 0; /* Padding top and bottom */
+  text-align: center; /* Center-align content */
+}
+
+.footer-content {
+  max-width: 800px; /* Limit content width */
+  margin: 0 auto; /* Center content horizontally */
+}
+
+.footer h2 {
+  font-size: 24px; /* Header font size */
+  margin-bottom: 20px; /* Bottom margin */
+}
+
+.footer p {
+  font-size: 18px; /* Paragraph font size */
+  line-height: 1.5; /* Line height for readability */
+}

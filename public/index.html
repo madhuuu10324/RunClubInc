@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RunClubInc.</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap">
+
+  <!-- AOS CSS CDN link -->
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <style>
+    html{
+      scroll-behavior: smooth;
+    }
+    /* Custom styles */
+    /* Transparent navbar */
+    .navbar {
+      height: max-content;
+      background-color: black; /* Adjust transparency as needed */
+      padding-top: 20px; /* Increase top padding */
+      padding-bottom: 20px; /* Increase bottom padding */
+      z-index: 1000;
+    }
+
+    /* Space for navbar */
+    body {
+      margin: auto;
+      padding-top: 100px; /* Adjust padding-top to accommodate the navbar height */
+      font-family: 'Montserrat', sans-serif;
+      height: 100%;
+      background-image: url('abstract-1780223.png');
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+    }
+    @font-face {
+      font-family:"Alien AI Italic";
+      src:url("Alien_AI_Italic.ttf");
+      font-weight:normal;
+      font-style:normal;
+    }
+
+    .navbar-brand {
+      font-size: 24px; /* Optionally increase font size */
+      line-height: 40px; /* Adjust line height to vertically center text */
+      font-family: 'Alien AI Italic';
+    }
+
+    .nav-link {
+      margin-right: 30px;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: bold;
+    }
+    @media (max-width: 600px) {
+      .navbar-nav {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+      }
+    }
+    .close-button {
+      border: none;
+      background: transparent;
+      font-size: 24px;
+      color: white;
+    }
+    
+    .close-button:focus {
+      outline: none;
+    }
+    .hero-section {
+      padding: 100px 0; /* Adjust top and bottom padding */
+      color: aliceblue;
+      overflow-y: auto; /* Enable vertical scrolling if content exceeds viewport height */
+    }
+
+    .hero-content {
+      max-width: 600px; /* Limit content width */
+    }
+
+    .hero-title {
+      font-size: 48px; /* Title font size */
+      margin-bottom: 20px; /* Bottom margin for title */
+    }
+
+    .hero-subtitle {
+      font-size: 24px; /* Subtitle font size */
+      margin-bottom: 30px; /* Bottom margin for subtitle */
+    }
+
+    .hero-image {
+      max-width: 100%; /* Ensure image does not exceed container width */
+      height: auto; /* Maintain aspect ratio */
+    }
+    .why-image{
+      max-width: 50%; /* Ensure image does not exceed container width */
+      height: auto; /* Maintain aspect ratio */
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container" data-aos="fade-down" data-aos-delay="100">
+      <a class="navbar-brand" href="#" style="font-family:'Alien AI Italic';">RunClubInc.</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+     
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#why">why?</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#benifits">Benifits</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#trackers">Trackers</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#inspiringstories">Stories</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+    <!-- Hero Section -->
+<section class="hero-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="hero-content" data-aos="fade-left" data-aos-delay="200">
+          <h1 class="hero-title">Welcome to <span style="font-family:'Alien AI Italic';">RunClubInc.</span></h1>
+          <br>
+          <h2 class="hero-subtitle">Run with passion, achieve your goals.</h2>
+        </div>
+      </div>
+      <div class="col-md-6 d-flex justify-content-center align-items-center" data-aos="fade-right" data-aos-delay="100">
+        <img src="running-man.png" alt="Running Man" class="hero-image">
+      </div>
+    </div>
+  </div>
+</section>
+<!--  why distance running -->
+<div class="row"  id="why">
+  <div class="col-md-6">
+    <div class="box-container">
+        <div class="box" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+             <div class="title" data-aos="fade-up" data-aos-delay="400">Why Distance Running ?</div>
+             <br>
+            <div class="description" data-aos="fade-up" data-aos-delay="400">Distance running offers a multitude of physical, mental, and social benefits that make it an incredibly rewarding pursuit. Beyond the obvious improvements to cardiovascular health and endurance, pounding the pavement or trails can also serve as a powerful stress reliever, helping to clear the mind and boost overall well-being.</p><p>Furthermore, the sense of accomplishment that comes with pushing your limits and conquering longer distances can be truly exhilarating. But perhaps what sets distance running apart is its ability to foster a sense of community. Whether you're running solo or participating in organized events, the camaraderie among runners is unmatched, creating lasting bonds and shared memories. So lace up your shoes, embrace the journey, and join us in discovering the endless joys of distance running.</div>
+        </div>
+     </div>
+  </div>
+  <div class="col-md-6 d-flex justify-content-center align-items-center" data-aos="fade-down-left">
+    <img src="bw-running-3.png" alt="Running Man" class="why-image">
+  </div>
+</div>
+<!--benifits -->
+<br>
+<div class="heading"  id='benifits' data-aos="zoom-in" data-aos-delay="5000">
+  <h2>Benefits</h2>
+</div>
+<br>
+<br>
+<div class="bento-container">
+  <div class="bento-box" data-aos="zoom-in-up">
+    <img src="endorphins.png" alt="Image 1" data-aos="flip-up" data-aos-delay="100">
+    <h2>Endorphins</h2>
+    <p>Running releases these "feel-good" hormones, boosting mood.</p>
+  </div>
+  <div class="bento-box" data-aos="zoom-in-up">
+    <img src="stress-relief.png" alt="Image 2" data-aos="flip-up" data-aos-delay="200">
+    <h2>Stress Relief</h2>
+    <p>Acts as a powerful stress reliever, promoting mental well-being.</p>
+  </div>
+  <div class="bento-box" data-aos="zoom-in-up">
+    <img src="weight-control.png" alt="Image 3" data-aos="flip-up" data-aos-delay="300">
+    <h2>Weight Control</h2>
+    <p> Aids in weight management and fat loss.</p>
+  </div>
+  <div class="bento-box" data-aos="zoom-in-up">
+    <img src="community.png" alt="Image 3" data-aos="flip-up" data-aos-delay="400">
+    <h2>Community</h2>
+    <p>Fosters a sense of camaraderie among runners, providing social support.</p>
+  </div>
+</div>
+<br><br><br>
+<h1 style="font-family: 'Alien AI Italic';text-align: center;position: relative;color:#f7f2f2;" data-aos="zoom-in" data-aos-delay="5000" id="trackers">TRACKERS</h1>
+<br><br>
+<div class="bento-container">
+  <div class="bento-box" data-aos="zoom-in">
+    <img src="NRC.png" style="border-radius: 30px;border-color:#f7f2f2;">
+    <h2>Nike Run Club</h2>
+  </div>
+  <div class="bento-box" data-aos="zoom-in">
+    <img src="strava.png" style="border-radius: 30px;">
+    <h2>STRAVA</h2>
+  </div>
+  <div class="bento-box" data-aos="zoom-in">
+    <img src="runna.png" style="border-radius: 30px;">
+    <h2>RUNNA</h2>
+  </div>
+  <div class="bento-box" data-aos="zoom-in">
+    <img src="stride.png" style="border-radius: 30px;">
+    <h2>STRIDE</h2>
+  </div>
+</div>
+</div>
+<br>
+<br>
+<h1 style="font-family: 'Alien AI Italic';text-align: center;position: relative;color:#f7f2f2;" data-aos="zoom-in" data-aos-delay="5000" id="inspiringstories">INSPIRING STORIES</h1>
+<br>
+<div class="carousel">
+  <div class="carousel-container" data-aos="flip-down">
+    <div class="review">
+      <h3>Jake Peralta</h3>
+      <p>"I never thought I could enjoy distance running, but after trying it out, I feel more energized and accomplished than ever before!"</p>
+    </div>
+    <div class="review">
+      <h3>Amy Santiago</h3>
+      <p>"Distance running seemed daunting at first, but after giving it a try, I've discovered a new sense of freedom and mental clarity."</p>
+    </div>
+    <div class="review">
+      <h3>Rosa Diaz</h3>
+      <p>"Trying out distance running was challenging, but the sense of accomplishment I felt afterward was truly rewarding. It's a great way to push your limits and clear your mind."</p>
+    </div>
+    <!-- Add more reviews as needed -->
+  </div>
+  <div class="carousel-trackers"></div>
+</div>
+<br>
+<footer class="footer">
+  <div class="footer-content">
+    <h2>Discover the Joy of Distance Running</h2>
+    <p>Join our community of runners and explore the world one step at a time. Whether you're a beginner or an experienced marathoner, we have resources and support to help you achieve your running goals.</p>
+  </div>
+</footer>
+  <!-- Bootstrap JS and AOS JS CDN links -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init(); // Initialize AOS library
+  </script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      const carousel = document.querySelector('.carousel-container');
+      const reviews = document.querySelectorAll('.review');
+      let currentIndex = 0;
+      const reviewWidth = reviews[0].offsetWidth;
+      
+      function nextReview() {
+        currentIndex = (currentIndex + 1) % reviews.length;
+        updateCarousel();
+      }
+      
+      function updateCarousel() {
+        const offset = -reviewWidth * currentIndex;
+        carousel.style.transform = `translateX(${offset}px)`;
+        updateTrackers();
+      }
+    
+      function updateTrackers() {
+        const trackers = document.querySelectorAll('.carousel-tracker');
+        trackers.forEach((tracker, index) => {
+          if (index === currentIndex) {
+            tracker.classList.add('active');
+          } else {
+            tracker.classList.remove('active');
+          }
+        });
+    
+        // Toggle active class for reviews
+        reviews.forEach((review, index) => {
+          if (index === currentIndex) {
+            review.classList.add('active');
+          } else {
+            review.classList.remove('active');
+          }
+        });
+      }
+      
+      setInterval(nextReview, 5000); // Change review every 5 seconds
+    
+      // Dynamically create trackers
+      const trackerContainer = document.querySelector('.carousel-trackers');
+      reviews.forEach((_, index) => {
+        const tracker = document.createElement('div');
+        tracker.classList.add('carousel-tracker');
+        tracker.addEventListener('click', () => {
+          currentIndex = index;
+          updateCarousel();
+        });
+        trackerContainer.appendChild(tracker);
+      });
+    
+      // Show initial review
+      reviews[currentIndex].classList.add('active');
+    });
+    
+  </script>
+</body>
+</html>
